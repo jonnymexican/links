@@ -8,6 +8,7 @@ Pure static HTML/CSS — no build step, no dependencies. GitHub Pages serves it 
 |---|---|
 | [FriendCredit™](https://jonnymexican.github.io/brocredit/) | Social credit scores for your friend group |
 | [adhdTracker](https://jonnymexican.github.io/adhdTracker/) | Tasks that require an expected outcome and honest reflection |
+| [network-tools (full)](https://network-tools-m3gz.onrender.com/) | All 8 tools with a real backend (Render free tier, sleeps when idle) |
 | [network-tools lite](https://jonnymexican.github.io/ntlite/) | Browser-only DNS, propagation, IP info, subnet math, header probe |
 | [Get Inspired](https://jonnymexican.github.io/test/) | Classics + Jung quotes, favorites, sharing |
 | [vicinityGo](https://jonnymexican.github.io/test/vicinitygo/) | Explore what's around you |
