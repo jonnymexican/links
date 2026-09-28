@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="All the apps — built by jonnymexican. Friend group credit scores, ADHD task tracking, quotes, and browser network tools." />
+    <title>the apps — jonnymexican</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(165deg, #131020 0%, #100e1a 55%, #0c0b14 100%);
+        color: #ece8f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1.1rem 4rem;
+      }
+      header { text-align: center; margin-bottom: 2.4rem; }
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+        background: linear-gradient(90deg, #a78bfa, #5cd6c9, #f0abfc);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      header p { margin: 0.5rem 0 0; color: #8f88a8; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+        gap: 1rem;
+        width: 100%;
+        max-width: 56rem;
+      }
+      a.card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: #1d1830;
+        border: 1px solid #33294f;
+        border-radius: 14px;
+        padding: 1.2rem 1.3rem;
+        transition: transform 120ms ease, border-color 120ms ease;
+      }
+      a.card:hover {
+        transform: translateY(-3px);
+        border-color: #7c5cff;
+      }
+      .card-icon { font-size: 1.7rem; }
+      .card h2 { margin: 0.5rem 0 0.3rem; font-size: 1.15rem; }
+      .card p { margin: 0; color: #b6aed2; font-size: 0.9rem; line-height: 1.45; }
+      .card .url {
+        display: block;
+        margin-top: 0.7rem;
+        color: #7cc7ff;
+        font-size: 0.8rem;
+        font-family: Consolas, 'Cascadia Mono', monospace;
+        word-break: break-all;
+      }
+      footer {
+        margin-top: 2.6rem;
+        color: #55506b;
+        font-size: 0.85rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>the apps</h1>
+      <p>four small tools, free to use, nothing to install</p>
+    </header>
+
+    <main class="grid">
+      <a class="card" href="https://jonnymexican.github.io/brocredit/">
+        <span class="card-icon">🎖️</span>
+        <h2>FriendCredit™</h2>
+        <p>Social credit scores for your friend group. File honors and offenses, climb from 🐐 Legend to 🚨 Enemy of the Friend Group.</p>
+        <span class="url">jonnymexican.github.io/brocredit</span>
+      </a>
+
+      <a class="card" href="https://jonnymexican.github.io/adhdTracker/">
+        <span class="card-icon">✅</span>
+        <h2>adhdTracker</h2>
+        <p>Tasks with a twist: define the expected outcome first, earn the checkmark only after honest reflection.</p>
+        <span class="url">jonnymexican.github.io/adhdTracker</span>
+      </a>
+
+      <a class="card" href="https://jonnymexican.github.io/ntlite/">
+        <span class="card-icon">🛠️</span>
+        <h2>network-tools lite</h2>
+        <p>DNS lookup, propagation check across resolvers, IP info, subnet math, and header probes — entirely in your browser.</p>
+        <span class="url">jonnymexican.github.io/ntlite</span>
+      </a>
+
+      <a class="card" href="https://jonnymexican.github.io/test/">
+        <span class="card-icon">💬</span>
+        <h2>Get Inspired</h2>
+        <p>Classics and Carl Jung side by side. Save favorites, add your own, share anywhere.</p>
+        <span class="url">jonnymexican.github.io/test</span>
+      </a>
+    </main>
+
+    <footer>everything runs client-side · your data stays on your device</footer>
+  </body>
+</html>
